@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT"
+[[mods]]
+modId="beskararmor"
+version="${file.jarVersion}"
+displayName="Beskar Armor"
+logoFile="examplemod.png"
+credits="TMade by Rooveloft"
+authors="Rooveloft"
+description='''
+This is my first mod
+'''
+[[dependencies.beskararmor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.beskararmor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
