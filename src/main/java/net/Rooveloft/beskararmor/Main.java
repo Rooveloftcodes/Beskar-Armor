@@ -1,6 +1,7 @@
 package net.Rooveloft.beskararmor;
 
 import com.mojang.logging.LogUtils;
+import net.Rooveloft.beskararmor.block.Modblocks;
 import net.Rooveloft.beskararmor.item.custom.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -18,14 +19,15 @@ public class Main
 
     public Main()
     {
-        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.register(eventBus);
-        eventBus.addListener(this::setup);
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(modEventBus);
+        Modblocks.register(modEventBus);
+        //modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
-    private void setup(final FMLCommonSetupEvent event)
+    /*private void setup(final FMLCommonSetupEvent event)
     {
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-    }
+    }*/
 }

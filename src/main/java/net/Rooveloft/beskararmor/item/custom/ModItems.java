@@ -15,7 +15,6 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =  DeferredRegister.create(ForgeRegistries.ITEMS, Main.MODID);
     public static final RegistryObject<Item> BESKAR_INGOT = ITEMS.register("beskar_ingot",
             ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
     public static final RegistryObject<Item> BESKAR_HELMET = ITEMS.register("beskar_helmet",
             () -> new ArmorItem(ModArmorMaterials.BESKAR, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
     public static final RegistryObject<Item> BESKAR_CHESTPIECE = ITEMS.register("beskar_chestpiece",
@@ -28,10 +27,4 @@ public class ModItems
     {
         ITEMS.register(eventBus);
     }
-    /*public static final <T extends Item> RegistryObject<T> register(final String name, final Supplier<T> item)
-    {
-        return  ITEMS.register(name, item);
-    }*/
-    //then the modtier java class (material)
-    //then on the armor pieces
 }

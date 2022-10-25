@@ -4,5 +4,7 @@
   "item.beskararmor.beskar_helmet": "Beskar Helmet",
   "item.beskararmor.beskar_chestpiece": "Beskar Chestpiece",
   "item.beskararmor.beskar_leggings": "Beskar Leggings",
-  "item.beskararmor.beskar_boots": "Beskar Boots"
+  "item.beskararmor.beskar_boots": "Beskar Boots",
+
+  "block.beskararmor.beskarblock": "Block of Beskar"
 }
