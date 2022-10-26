@@ -12,7 +12,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.stringtemplate.v4.misc.Misc;
 
 import java.util.function.Supplier;
 
@@ -22,6 +21,13 @@ public class Modblocks {
     public static final RegistryObject<Block> BESKAR_BLOCK = registerBlock("beskar_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.8f)
                     .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+
+    public static final RegistryObject<Block> BESKAR_ORE = registerBlock("beskar_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4.0f).requiresCorrectToolForDrops())
+            , CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> DEEPSLATE_BESKAR_ORE = registerBlock("deepslate_beskar_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5.0f).requiresCorrectToolForDrops())
+            , CreativeModeTab.TAB_MISC);
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab)
     {

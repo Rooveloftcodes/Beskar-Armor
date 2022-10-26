@@ -6,5 +6,7 @@
   "item.beskararmor.beskar_leggings": "Beskar Leggings",
   "item.beskararmor.beskar_boots": "Beskar Boots",
 
-  "block.beskararmor.beskarblock": "Block of Beskar"
+  "block.beskararmor.beskar_block": "Block of Beskar",
+  "block.beskararmor.beskar_ore": "Beskar ore",
+  "block.beskararmor.deepslate_beskar_ore": "Deepslate Beskar ore"
 }

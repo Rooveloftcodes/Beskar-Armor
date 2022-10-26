@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": {"model": "beskar_armor:block/beskar_block"}
+    "": {"model": "beskararmor:block/beskar_block"}
   }
 }
