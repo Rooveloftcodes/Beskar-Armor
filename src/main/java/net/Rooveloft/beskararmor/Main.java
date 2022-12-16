@@ -3,9 +3,12 @@ package net.Rooveloft.beskararmor;
 import com.mojang.logging.LogUtils;
 import net.Rooveloft.beskararmor.block.custom.Modblocks;
 import net.Rooveloft.beskararmor.item.custom.ModItems;
+import net.Rooveloft.beskararmor.world.feature.ModConfiguredFeatures;
+import net.Rooveloft.beskararmor.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 @Mod(Main.MODID)
@@ -19,12 +22,11 @@ public class Main
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         Modblocks.register(modEventBus);
-        //modEventBus.addListener(this::setup);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
+        modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
-    /*private void setup(final FMLCommonSetupEvent event)
-    {
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-    }*/
+    public void commonSetup(final FMLCommonSetupEvent event) {}
 }
