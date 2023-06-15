@@ -6,7 +6,7 @@ modId="beskararmor"
 version="${file.jarVersion}"
 displayName="Beskar Armor"
 logoFile="examplemod.png"
-credits="TMade by Rooveloft"
+credits="Made by Rooveloft"
 authors="Rooveloft"
 description='''
 This is my first mod

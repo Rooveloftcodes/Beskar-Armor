@@ -1,9 +1,8 @@
 package net.Rooveloft.beskararmor.block;
 
 import net.Rooveloft.beskararmor.Main;
-import net.Rooveloft.beskararmor.item.custom.ModItems;
+import net.Rooveloft.beskararmor.item.ModItems;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;

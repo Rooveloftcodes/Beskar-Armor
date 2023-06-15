@@ -1,4 +1,4 @@
-package net.Rooveloft.beskararmor.item.custom;
+package net.Rooveloft.beskararmor.item;
 
 import net.Rooveloft.beskararmor.Main;
 import net.minecraft.world.item.ArmorItem;

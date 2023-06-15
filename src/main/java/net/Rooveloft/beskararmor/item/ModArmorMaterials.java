@@ -1,4 +1,4 @@
-package net.Rooveloft.beskararmor.item.custom;
+package net.Rooveloft.beskararmor.item;
 
 import net.Rooveloft.beskararmor.Main;
 import net.minecraft.sounds.SoundEvent;
@@ -70,7 +70,6 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     public String getName() {
         return Main.MODID + ":" + this.name;
-        //     beskararmor   :   name
     }
 
     public float getToughness() {
