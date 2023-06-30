@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "beskararmor:beskar_ore_placed",
+  "features": "beskararmor:overworld_beskar_ore",
   "step": "underground_ores"
 }

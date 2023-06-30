@@ -1,6 +1,7 @@
 package net.Rooveloft.beskararmor.item.custom;
 
 import net.Rooveloft.beskararmor.Main;
+import net.Rooveloft.beskararmor.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;

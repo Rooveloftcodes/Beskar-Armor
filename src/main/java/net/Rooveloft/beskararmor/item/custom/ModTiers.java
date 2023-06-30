@@ -1,5 +1,6 @@
 package net.Rooveloft.beskararmor.item.custom;
 
+import net.Rooveloft.beskararmor.item.ModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
