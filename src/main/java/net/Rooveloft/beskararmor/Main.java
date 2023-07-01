@@ -37,6 +37,10 @@ public class Main
             event.accept(ModItems.BESKAR_CHESTPIECE);
             event.accept(ModItems.BESKAR_LEGGINGS);
             event.accept(ModItems.BESKAR_BOOTS);
+
+            event.accept(Modblocks.BESKAR_ORE);
+            event.accept(Modblocks.DEEPSLATE_BESKAR_ORE);
+            event.accept(Modblocks.BESKAR_BLOCK);
         }
     }
     public void commonSetup(final FMLCommonSetupEvent event) {}
