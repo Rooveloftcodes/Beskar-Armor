@@ -8,5 +8,7 @@
 
   "block.beskararmor.beskar_block": "Block of Beskar",
   "block.beskararmor.beskar_ore": "Beskar ore",
-  "block.beskararmor.deepslate_beskar_ore": "Deepslate Beskar ore"
+  "block.beskararmor.deepslate_beskar_ore": "Deepslate Beskar ore",
+
+  "creativemodetab.beskar_tab": "Beskar Tab"
 }
