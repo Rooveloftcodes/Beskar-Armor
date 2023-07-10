@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 400,
+  "experience": 0.9,
+  "group": "beskar_ingot",
+  "ingredient": {
+    "item": "beskararmor:raw_beskar_ore"
+  },
+  "result": "beskararmor:beskar_ingot"
+}

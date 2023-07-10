@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "beskararmor:deepslate_beskar_ore"
+          "name": "beskararmor:raw_beskar_ore"
         }
       ]
     }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "beskar_ingot",
+  "ingredients": [
+    {
+      "item": "beskararmor:beskar_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "beskararmor:beskar_ingot"
+  }
+}

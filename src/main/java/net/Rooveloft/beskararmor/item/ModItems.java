@@ -15,6 +15,8 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =  DeferredRegister.create(ForgeRegistries.ITEMS, Main.MODID);
     public static final RegistryObject<Item> BESKAR_INGOT = ITEMS.register("beskar_ingot",
             ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_BESKAR_ORE = ITEMS.register("raw_beskar_ore",
+            ()-> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BESKAR_HELMET = ITEMS.register("beskar_helmet",
             () -> new ArmorItem(ModArmorMaterials.BESKAR, EquipmentSlot.HEAD, new Item.Properties()));
     public static final RegistryObject<Item> BESKAR_CHESTPIECE = ITEMS.register("beskar_chestpiece",

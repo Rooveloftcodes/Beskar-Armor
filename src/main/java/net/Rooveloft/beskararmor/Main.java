@@ -33,6 +33,8 @@ public class Main
         if(event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES)
         {
             event.accept(ModItems.BESKAR_INGOT);
+            event.accept(ModItems.RAW_BESKAR_ORE);
+
             event.accept(Modblocks.BESKAR_ORE);
             event.accept(Modblocks.DEEPSLATE_BESKAR_ORE);
             event.accept(Modblocks.BESKAR_BLOCK);
@@ -47,6 +49,7 @@ public class Main
         if(event.getTab() == ModCreativeModeTab.BESKAR_TAB)
         {
             event.accept(ModItems.BESKAR_INGOT);
+            event.accept(ModItems.RAW_BESKAR_ORE);
             event.accept(ModItems.BESKAR_HELMET);
             event.accept(ModItems.BESKAR_CHESTPIECE);
             event.accept(ModItems.BESKAR_LEGGINGS);

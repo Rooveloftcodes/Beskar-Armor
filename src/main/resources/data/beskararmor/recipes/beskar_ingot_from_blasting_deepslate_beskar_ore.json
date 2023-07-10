@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 225,
+  "experience": 0.7,
+  "group": "beskar_ingot",
+  "ingredient": {
+    "item": "beskararmor:deepslate_beskar_ore"
+  },
+  "result": "beskararmor:beskar_ingot"
+}
