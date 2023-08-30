@@ -14,8 +14,6 @@ import net.minecraft.world.level.levelgen.placement.*;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    /*public static final DeferredRegister<PlacedFeature> PLACED_FEATURES =
-            DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, Main.MODID);*/
 
     public static final ResourceKey<PlacedFeature> OVERWORLD_BESKAR_ORE_PLACED_KEY = createKey("overworld_beskar_ore");
 
@@ -27,10 +25,6 @@ public class ModPlacedFeatures {
                 commonOrePlacement(12, // VeinsPerChunk
                         HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
     }
-    /*public static final RegistryObject<PlacedFeature> BESKAR_ORE_PLACED = PLACED_FEATURES.register
-    ("beskar_ore_placed",
-            ()-> new PlacedFeature(ModConfiguredFeatures.BESKAR_ORE.getHolder().get(), commonOrePlacement(7,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));*/
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());
     }
@@ -50,11 +44,6 @@ public class ModPlacedFeatures {
     private static void register(BootstapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,
                                  PlacementModifier...modifiers)
     {
-        //register(context, key, configuration, List.of(modifiers));
         register(context, key, configuration, (PlacementModifier) List.of(modifiers));
     }
-    /*public static void register(IEventBus eventBus)
-    {
-        PLACED_FEATURES.register(eventBus);
-    }*/
 }
